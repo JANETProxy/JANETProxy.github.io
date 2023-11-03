@@ -1,9 +1,13 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #header-content {
     text-align: center;
 }
+#main-header {
+    font-family: Courier New, Arial, Helvetica, sans-serif;
+    font-size: 25px;
 #navbar {
   background-color: #333;
   overflow: hidden;
