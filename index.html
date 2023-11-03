@@ -3,13 +3,31 @@
     <head>
         <meta charset="utf-8">
         <meta content="width=device-width">
+        <link rel="stylesheet" href="/styles/index.css">
         <title>JANET Proxy</title>
     </head>
     <body>
+        <div id="navbar">
+            <ul id="navbar-elements">
+                <li class="navbar-element">Home</li>
+                <li class="navbar-element">Proxy</li>
+                <li class="navbar-element">About</li>
+        </div>
         <div id="header-content">
             <h1 id="main-title">Welcome to Proxy</h1>
             <!-- Developer notice for all commits in beta versions -->
             <p id="dev-notice">Proxy is still under development at this time.</p>
         </div>
+        <div id="main-content">
+            <h2 id="proxy-link-header">Get Started</h2>
+            <button id="proxy-link" onclick="redirectToProxy()">Go</button>
+        </div>
     </body>
+    <script>
+        // Main script for the proxy.
+        function redirectToProxy() {
+            window.location = "https://janetproxy.github.io/proxy.html";
+            return;
+        }
+    </script>
 </html>
